@@ -2,6 +2,12 @@ package app;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Shop-online for customers");
+        SimpleLoops simpleForLoop = new SimpleLoops(6, LoopType.FOR_LOOP);
+        SimpleLoops simpleWhileLoop = new SimpleLoops(6, LoopType.FOR_LOOP);
+        SimpleLoops simpleDoWhileLoop = new SimpleLoops(6, LoopType.FOR_LOOP);
+
+        simpleForLoop.startLoop();
+        simpleWhileLoop.startLoop();
+        simpleDoWhileLoop.startLoop();
     }
 }
