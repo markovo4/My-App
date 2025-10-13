@@ -57,8 +57,8 @@ public class Main {
 
 
         //Task #4
-        int totalSum = 0;
-        int ave;
+        double totalSum = 0;
+        double ave;
         boolean startCounter = false;
 
         for(int num : randNumArr){
@@ -70,10 +70,10 @@ public class Main {
         }
 
         if(!startCounter){
-            System.out.println("\nTask #4\nNo Negative integers to be found!");
+            System.out.println("\nTask #4\nNo Negative numbers to be found!");
         } else {
-            ave = (totalSum / randNumArr.length);
-            System.out.println("\nTask #4\nAverage of the 20 integers is: " + ave);
+            ave = totalSum / randNumArr.length;
+            System.out.println("\nTask #4\nAverage of the 20 numbers is: " + ave);
         }
 
     }
