@@ -1,5 +1,7 @@
 package app;
 
+import java.util.Objects;
+
 public class Person {
     private String name;
     private int age;
@@ -53,4 +55,5 @@ public class Person {
     public String toString() {
         return this.id + ". Name: " + this.name + ", Age: " + this.age + ", Profession: " + this.profession;
     }
+
 }
